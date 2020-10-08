@@ -31,7 +31,7 @@ public class list_view_articulos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view_articulos);
 
-        listViewPersonas = (ListView)findViewById(R.id.listViewPersonas);
+        listViewPersonas = (ListView)findViewById(R.id.tv_destino);
         searchView = (SearchView)findViewById(R.id.searchView);
 
         adaptador = new ArrayAdapter(this, android.R.layout.simple_list_item_1, conexion.consultaListaArticulos1());

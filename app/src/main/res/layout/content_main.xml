@@ -74,6 +74,7 @@
             android:textColor="#FFF" />
 
         <EditText
+            android:id="@+id/et_descripcion"
             android:layout_width="464dp"
             android:layout_height="58dp"
             android:layout_marginLeft="-15dp"
@@ -85,6 +86,7 @@
             android:paddingLeft="65dp" />
     
     <EditText
+        android:id="@+id/et_precio"
         android:layout_width="464dp"
         android:layout_height="58dp"
         android:layout_marginLeft="-15dp"

@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitleMargin(0,0,0,0);
         toolbar.setSubtitle("CRUD SQLite 2020");
         toolbar.setSubtitleTextColor(getResources().getColor(R.color.my_color));
-        toolbar.setTitle("Prof. Gamez");
+        toolbar.setTitle("Luis M. Leonor");
         setSupportActionBar(toolbar);
 
 
@@ -164,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.btn_eliminar) {
+        if (id == R.id.action_limpiar) {
             et_codigo.setText(null);
             et_descripcion.setText(null);
             et_precio.setText(null);

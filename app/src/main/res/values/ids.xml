@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="listViewPersonas" type="id" />
-    <item name="et_descripcion" type="id" />
-    <item name="et_precio" type="id" />
 </resources>
